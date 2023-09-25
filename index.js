@@ -22,8 +22,7 @@ planetList.innerHTML = getList(lists.all);
 
 for (const button of buttons) {
   button.addEventListener('click', (event) => {
-    const eventTargetId = event.currentTarget.id;
-    planetList.innerHTML = getList(lists[eventTargetId]);
+    planetList.innerHTML = getList(lists[event.currentTarget.id]);
   })
 }
 
