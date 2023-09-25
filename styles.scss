@@ -1,0 +1,75 @@
+body {
+  background-image: url("https://img3.akspic.ru/previews/1/6/9/3/7/173961/173961-tumannost_kilya-tumannost-galaktika-zvezda-kosmicheskij_teleskop_habbl-x750.jpg");
+  background-position: 0 0;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: #C8D2D1;
+}
+
+.header {
+  background-color: #68904D;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+  &__icon {
+    img {
+      height: 70px;
+    }
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+
+  :not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &__item {
+    font-size: 2em;
+    background-color: #EE9B01;
+    border: none;
+    border-radius: 10%;
+  }
+}
+
+.planets{
+  font-size: 1.6em;
+  width: fit-content;
+  padding: 30px;
+  background-color: #EE9B01;
+  color: black;
+
+  &__item{
+
+    :visited{
+      color: red;
+    }
+
+  }
+}
+
+.planet {
+
+  &__images{
+    display: flex;
+    justify-content: space-between;
+    img{
+      max-width: 30%;
+      max-height: 400px;
+    }
+
+  }
+
+  &__description{
+    font-size: 2em;
+    color: #EE9B01;
+  }
+}
