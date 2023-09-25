@@ -37,6 +37,10 @@ h1 {
     background-color: #EE9B01;
     border: none;
     border-radius: 10%;
+
+    &:hover{
+      cursor: pointer;
+    }
   }
 }
 
@@ -48,16 +52,13 @@ h1 {
   color: black;
 
   &__item{
-
     :visited{
       color: red;
     }
-
   }
 }
 
 .planet {
-
   &__images{
     display: flex;
     justify-content: space-between;
@@ -65,7 +66,6 @@ h1 {
       max-width: 30%;
       max-height: 400px;
     }
-
   }
 
   &__description{
